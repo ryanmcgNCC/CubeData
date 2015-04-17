@@ -5,7 +5,7 @@ First, I represent all the colors on a Rubik's Cube as numbers 0-5 in an array
 The array in question represents the state of a Rubik's Cube by essentially "unfolding" a cube so it looks
 like a cross.
 I.E., a solved cube would be in an array that looked like:
-{0,0,0,0,0,0,0,0,0,1,1,1,2,2,2,3,3,3,1,1,1,2,2,2,3,3,3,4,4,4,4,4,4,4,4,4,5,5,5,5,5,5,5,5,5},
+{0,0,0,0,0,0,0,0,0,1,1,1,2,2,2,3,3,3,1,1,1,2,2,2,3,3,3,1,1,1,2,2,2,3,3,3,4,4,4,4,4,4,4,4,4,5,5,5,5,5,5,5,5,5},
 where the 0's represent red tiles, the 1's represent green tiles, the 2's represent yellow tiles, the 3's represent
 blue tiles, the 4's represent orange tiles and the 5's represent white tiles, and the cross is read left to right and
 top to bottom in order.
